@@ -1,0 +1,4 @@
+#bin/bash
+
+g++ -lGLUT -lGLU -lglut ./src/*.cpp ./src/view/*.cpp  -o ./bin/app && ./bin/app
+
