@@ -1,5 +1,4 @@
-#include "main.h"
-
+#include "main.hpp"
 
 // void display_home() {
 //     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);

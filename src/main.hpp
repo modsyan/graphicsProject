@@ -4,10 +4,10 @@
 #include <IL/il.h>
 #include <math.h>
 
-#include "view/player.h"
-#include "view/sky.h"
-#include "controllers/keyOperations.h"
-#include "controllers/screenUtils.h"
+#include "player.hpp"
+#include "matrial.hpp"
+#include "screenUtils.hpp"
+#include "keyOperations.hpp"
 
 // #include <irrKlang.h>
 // using namespace irrKlang;

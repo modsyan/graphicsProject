@@ -1,4 +1,4 @@
-#include "screenUtils.h""
+#include <GL/glut.h>
 
 void displayRasterText(float x ,float y ,float z ,char *stringToDisplay) {
 	glRasterPos3f(x, y, z);

@@ -1,11 +1,10 @@
-#include "player.h"
+#include <GL/glut.h>
 
+void player(int x = 0, int y = 0);
+void player(int x = 0, int y = 0) {
 
-Player::Player(int x = 0, int y = 0) {
-
-    // vars
-    head = gluNewQuadric();
-    hand = gluNewQuadric();
+    GLUquadricObj* head = gluNewQuadric();
+    GLUquadricObj* hand = gluNewQuadric();
 
     glPushMatrix();
 
